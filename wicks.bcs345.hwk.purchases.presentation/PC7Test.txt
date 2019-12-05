@@ -1,0 +1,15 @@
+Purchase Report
+---------------
+Thomas Wicks
+4 Ruth Lane
+Selden, NY 11784
+
+Description                                   Price             Quantity                total
+-----------                                   -----            ---------                -----
+iPhone 8                                      699.0                    1               699.00
+Sam's Cracked Galaxy S10                     1000.0                    1              1000.00
+iPhone 10                                     999.0                    1               999.00
+iPhone 10                                     999.0                    1               999.00
+iPhone 10                                     999.0                    1               999.00
+-----------                                   -----            ---------                -----
+Total                                                                  5              4696.00

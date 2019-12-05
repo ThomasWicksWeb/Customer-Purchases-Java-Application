@@ -1,0 +1,17 @@
+Thomas
+Johnson
+5
+Smitherson St
+Lindernhurt
+NY
+11234
+3	
+Item Description 1
+100.00
+1
+Item Description 2
+199.99
+5
+Item Description 3
+1230.99
+2

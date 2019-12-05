@@ -1,0 +1,50 @@
+{
+  "m_myCus": {
+    "firstName": "Thomas",
+    "lastName": "Wicks",
+    "myAdr": {
+      "number": "4",
+      "street": "Ruth Lane",
+      "city": "Selden",
+      "state": "NY",
+      "zip": "11784"
+    }
+  },
+  "m_Purchase": [
+    {
+      "myProd": {
+        "description": "iPhone 888",
+        "price": 999.0
+      },
+      "quantity": 1
+    },
+    {
+      "myProd": {
+        "description": "Sam\u0027s Cracked Galaxy S10",
+        "price": 699.0
+      },
+      "quantity": 1
+    },
+    {
+      "myProd": {
+        "description": "iPhone 10",
+        "price": 1000.0
+      },
+      "quantity": 12
+    },
+    {
+      "myProd": {
+        "description": "USB Chargers",
+        "price": 999.0
+      },
+      "quantity": 122
+    },
+    {
+      "myProd": {
+        "description": "USB Type-C Chargers",
+        "price": 19.99
+      },
+      "quantity": 52
+    }
+  ]
+}

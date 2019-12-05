@@ -1,0 +1,73 @@
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+
+<AnchorPane
+	xmlns:fx="http://javafx.com/fxml"
+	fx:controller="wicks.bcs345.hwk.purchases.presentation.PurchasesController"
+	fx:id="anchorPane"
+	>
+	<VBox>
+	
+		<MenuBar>
+			<menus>
+				<Menu text="File">
+					<items>
+						<MenuItem fx:id="menuOpen" text="Open txt..." onAction="#handleMenuOpen"></MenuItem>
+						<MenuItem fx:id="menuOpenJSON" text="Open JSON..." onAction="#handleMenuOpenJSON"></MenuItem>
+						<SeparatorMenuItem />
+						<MenuItem fx:id="menuSaveAs" text="Save as..." onAction="#handleMenuSaveAs"></MenuItem>
+						<MenuItem fx:id="menuSaveAsJSON" text="Save JSON as..." onAction="#handleMenuSaveAsJSON"></MenuItem>
+						<MenuItem fx:id="menuSaveReport" text="Save Report..." onAction="#handleMenuSaveReport"></MenuItem>
+						<SeparatorMenuItem />
+						<MenuItem fx:id="menuExit" text="Exit" onAction="#handleMenuExit"></MenuItem>
+					</items>
+				</Menu>
+			</menus>
+		</MenuBar>
+				
+		<TabPane tabClosingPolicy="UNAVAILABLE" fx:id="tabPane">
+			<tabs>
+				<Tab fx:id="tabCustomer" text="Customer">
+					<VBox>
+					   <HBox>
+					      <Label styleClass="myTab" text="First name"></Label>
+					      <TextField fx:id="firstNameField"></TextField>
+					   </HBox>
+					   <HBox>
+					      <Label text="Last name"></Label>
+					      <TextField fx:id="lastNameField"></TextField>
+					   </HBox>
+					   <HBox>
+					      <Label text="Number"></Label>
+					      <TextField fx:id="numberField"></TextField>
+					   </HBox>
+					   <HBox>
+					      <Label text="Street"></Label>
+					      <TextField fx:id="streetField"></TextField>
+					   </HBox>
+					   <HBox>
+					      <Label text="City"></Label>
+					      <TextField fx:id="cityField"></TextField>
+					   </HBox>
+					   <HBox>
+					      <Label text="State"></Label>
+					      <TextField fx:id="stateField"></TextField>
+					   </HBox>
+					   <HBox>
+					      <Label text="ZIP"></Label>
+					      <TextField fx:id="zipField"></TextField>
+					   </HBox>
+					</VBox>
+				</Tab>
+				<Tab fx:id="tabPurchases" text="Purchases">
+					<ListView fx:id="listViewItems">
+						<items></items>
+					</ListView>
+				</Tab>
+			</tabs>
+		</TabPane>
+
+	</VBox>
+</AnchorPane>

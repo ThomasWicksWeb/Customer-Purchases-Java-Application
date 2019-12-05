@@ -1,0 +1,7 @@
+{
+  "myProd": {
+    "description": "Samsung Galaxy 2323",
+    "price": 199.99
+  },
+  "quantity": 2
+}

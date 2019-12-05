@@ -1,0 +1,50 @@
+{
+  "m_myCus": {
+    "firstName": "Thomas",
+    "lastName": "Wicks",
+    "myAdr": {
+      "number": "4",
+      "street": "Ruth Lane",
+      "city": "Selden",
+      "state": "NY",
+      "zip": "11784"
+    }
+  },
+  "m_Purchase": [
+    {
+      "myProd": {
+        "description": "iPhone 8",
+        "price": 699.0
+      },
+      "quantity": 1
+    },
+    {
+      "myProd": {
+        "description": "Sam\u0027s Cracked Galaxy S10",
+        "price": 1000.0
+      },
+      "quantity": 1
+    },
+    {
+      "myProd": {
+        "description": "iPhone 10",
+        "price": 999.0
+      },
+      "quantity": 1
+    },
+    {
+      "myProd": {
+        "description": "iPhone 10",
+        "price": 999.0
+      },
+      "quantity": 1
+    },
+    {
+      "myProd": {
+        "description": "iPhone 10",
+        "price": 999.0
+      },
+      "quantity": 1
+    }
+  ]
+}

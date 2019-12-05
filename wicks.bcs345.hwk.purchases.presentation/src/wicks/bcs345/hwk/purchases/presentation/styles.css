@@ -1,0 +1,7 @@
+.myTab {
+	-fx-color: blue;
+}
+
+MenuItem {
+	-fx-color: red;
+}

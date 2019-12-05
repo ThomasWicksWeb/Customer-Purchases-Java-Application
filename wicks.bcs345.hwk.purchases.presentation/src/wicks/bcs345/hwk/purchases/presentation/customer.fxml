@@ -1,0 +1,30 @@
+<VBox>
+   <HBox>
+      <Label text="First name"></Label>
+      <TextField fx:id="firstNameField"></TextField>
+   </HBox>
+   <HBox>
+      <Label text="Last name"></Label>
+      <TextField fx:id="lastNameField"></TextField>
+   </HBox>
+   <HBox>
+      <Label text="Number"></Label>
+      <TextField fx:id="numberField"></TextField>
+   </HBox>
+   <HBox>
+      <Label text="Street"></Label>
+      <TextField fx:id="streetField"></TextField>
+   </HBox>
+   <HBox>
+      <Label text="City"></Label>
+      <TextField fx:id="cityField"></TextField>
+   </HBox>
+   <HBox>
+      <Label text="State"></Label>
+      <TextField fx:id="stateField"></TextField>
+   </HBox>
+   <HBox>
+      <Label text="ZIP"></Label>
+      <TextField fx:id="zipField"></TextField>
+   </HBox>
+</VBox>

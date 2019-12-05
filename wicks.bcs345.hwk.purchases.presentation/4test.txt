@@ -1,0 +1,11 @@
+{
+  "firstName": "Test",
+  "lastName": "McTester",
+  "myAdr": {
+    "number": "4",
+    "street": "Json Ln",
+    "city": "Smithtown",
+    "state": "NY",
+    "zip": "15424"
+  }
+}
